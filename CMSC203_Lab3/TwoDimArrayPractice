@@ -181,8 +181,8 @@ public class TwoDimArrayPractice extends JFrame
     //        column is the index of the array's current column
     //        minimum is the local variable storing the current minimum
     // Write your code here:
-	   int minimum = intArray[0][column]; // Start with the first row in the given column
-       for (int row = 1; row < intArray.length; row++) {
+	int minimum = intArray[0][column]; // Start with the first row in the given column
+	for (int row = 1; row < intArray.length; row++) {
            if (intArray[row][column] < minimum) {
         	   minimum = intArray[row][column];
            }
